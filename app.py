@@ -71,8 +71,8 @@ def main():
    <div class="clearfix">
    <div class="col-md-12">
    <center><p style="font-size:40px;color:white;margin-top:10px;">MID TERM - I</p></center>
-   <center><p style="font-size:30px;color:white;margin-top:10px;">NAME: SAGAR GYANCHANDANI</p></center>
-   <center><p style="font-size:25px;color:white;margin-top:0px;">|| PIET18CS127 || Sec: C || Roll No 16 ||</p></center>
+   <center><p style="font-size:30px;color:white;margin-top:10px;">NAME: Meghna Mathur</p></center>
+   <center><p style="font-size:25px;color:white;margin-top:0px;">|| PIET18CS090 || Sec: B || Roll No 33 ||</p></center>
    </div>
    </div>
    </div>
@@ -93,8 +93,8 @@ def main():
       result=predict_note_authentication(Gender,Glucose,bp,SkinThickness,Insulin,BMI,PedigreeFunction,Age)
       st.success('Model has predicted that -> {}'.format(result))
     if st.button("About"):
-      st.subheader("Developed by SAGAR GYANCHANDANI")
-      st.subheader("C-Section,PIET")
+      st.subheader("Developed by Meghna Mathur")
+      st.subheader("B-Section,PIET")
 
 if __name__=='__main__':
   main()
